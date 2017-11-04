@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'validates_timeliness'
 gem 'will_paginate'
 gem 'simple_form'
+gem 'materialize-sass'
+gem 'byebug'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,9 +44,7 @@ group :development, :test do
   gem 'shoulda'
   gem 'shoulda-matchers'
   gem 'faker'
-  gem 'faker'
   gem 'hirb'
-  gem 'faker'
   gem 'populator3'
   gem 'wirble'
   gem 'thin'
